@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       var a=10;
+        var b=10;
+        var c=a+b;
+
+        console.log(c)
+       function kmsTomilesfunction(){
+      //alert("button is clicked");
+       //var res=kms/1.609;
+
+    var abc =document.getElementById('kms').value;
+    var Miles=abc/1.609;
+    console.log(Miles)
+    document.getElementById('resulttext') .innerText=Miles;
+
+}
+
+    </script>
+</head>
+<body>
+    <h1>
+        Kilometers To Miles
+    </h1></center>
+    <center> <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\k1.png"></center>
+    <form>
+       <label type="name">Kms:</label><br>
+        <input type="number" id="kms" placeholder="kms value">
+        <br/><br>
+        <input type="button" onclick="kmsTomilesfunction()"  value="convert">
+        <h1 id="resulttext">Result:</h1>
+    </form>
+    
+</body>
+</html>

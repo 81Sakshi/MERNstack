@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  import "bootstrap/dist/css/bootstrap.min.css"; 
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      
+      
+     
+      .carousel {
+        padding: auto;
+      }
+       
+      
+      
+      .image1{
+        object-position: center;
+       height: 350px;
+       width: auto;
+      
+       
+      }
+      .card{
+        background-color: rgb(125, 120, 120);
+        padding: 5pt;
+        margin-left:40pt;
+        height: 350px;
+        margin-top: 15pt;
+        margin-left: 50pt;
+        
+      }
+      
+      .col{
+        background-color: rgb(194, 111, 111);
+        height: 480px;
+        border-radius: 80pt;
+        border-color: dark rgb(116, 5, 5);
+        
+      }
+     .image1{
+      border-radius: 20px;
+     }
+
+     footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    footer a {
+      color: #00bcd4;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    footer .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+    footer .social-icons a {
+      margin: 0 10px;
+    }
+  </style>
+
+      
+    </style>
+  
+  </head>
+<br>
+<body style="background-color: silver;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\ll1.jpg" height="70px" width="200px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Movie Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Adventure</a></li>
+              <li><a class="dropdown-item" href="#">Sci-Fi</a></li>
+              <li><a class="dropdown-item" href="#">Fantasy</a></li>
+              
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav><br>
+
+
+ 
+    <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide carousel-fade" style="width: 100%;">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s9.png" class="d-block w-100" alt="Image 2" height="350px" >
+        
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s5.jpg" class="d-block w-100" alt="Image 2" height="350px" >
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s10.jpg" class="d-block w-100" alt="Image 3" height="350px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br>
+
+
+  <div class="offer-banner text-center" style="background-color: #000000; color: white; padding: 10px;">
+    <h3>🔥 Limited Time Offer: Get 20% OFF on All Marvel Movies! Use Code: MARVEL20</h3>
+  </div><br><br>
+  
+
+  <!-- ######card##### -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col order-first">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s16.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">AVENGERS ENDGAME</h5>
+            <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);">$32</p>
+             
+             <div class="rating" style="color:sliver; font-size: 1.2rem;">
+              ★★★★☆ (4.5)
+            </div>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(0, 0, 0);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s14.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">BLACK WIDOW</h5>
+            <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);">$50</p>
+            <div class="rating" style="color:sliver; font-size: 1.2rem;">
+              ★★★★☆ (4.0)
+            </div>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(0, 0, 0);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col order-last">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s13.jpg" class="card-img-top" alt="..."height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">ANT MAN</h5>
+            <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);">$35</p>
+            <div class="rating" style="color:sliver; font-size: 1.2rem;">
+              ★★★★☆ (4.5)
+            </div>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(0, 0, 0);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </div><br><br>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col order-first ">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s12.jpg" class="card-img-top" alt="..."  height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">THOR</h5>
+            
+          <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);">$40</p>
+          <div class="rating" style="color:sliver; font-size: 1.2rem;">
+            ★★★★☆ (4.5)
+          </div>
+          <a href="#" class="btn btn-primary" style="background-color: rgb(0, 0, 0);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s15.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">DOCTOR STRANGE</h5>
+            <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);">$45</p>
+            <div class="rating" style="color:sliver; font-size: 1.2rem;">
+              ★★★★☆ (4.0)
+            </div>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(13, 14, 15);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col order-last">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s6.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">CAPTAIN MARVEL</h5>
+            <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);" >$40</p>
+            <div class="rating" style="color:sliver; font-size: 1.2rem;">
+              ★★★★☆ (3.9)
+            </div>
+            <a href="#" class="btn btn-primary"style="background-color: rgb(0, 0, 0);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </div><br><br>
+
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col order-first ">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s4.jpeg" class="card-img-top" alt="..."  height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">ETERNALS</h5>
+            <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);">$40</p>
+            <div class="rating" style="color:sliver; font-size: 1.2rem;">
+              ★★★★☆ (4.0)
+            </div>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(0, 0, 0);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s3.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">BLACK PANTHER</h5>
+            <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);">$45</p>
+            <div class="rating" style="color:sliver; font-size: 1.2rem;">
+              ★★★★☆ (4.5)
+            </div>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(13, 14, 15);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col order-last">
+        <div class="card" style="width: 18rem;">
+          <img src="C:\Users\saksh\OneDrive\Desktop\MERNstack\images\s11.webp" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(88, 17, 41);font-size: 18pt;">SPIDER-MAN</h5>
+            <p class="card-text" style="font-size: 20pt;font-style:italic;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: rgb(237, 235, 233);" >$40</p>
+            <div class="rating" style="color:sliver; font-size: 1.2rem;">
+              ★★★★☆ (4.0)
+            </div>
+            <a href="#" class="btn btn-primary"style="background-color: rgb(0, 0, 0);">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </div><br><br>
+
+ 
+  <footer>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <a href="#terms">Terms & Conditions</a>
+      <a href="#privacy">Privacy Policy</a>
+    </div>
+    <div class="footer-links">
+      <a href="#faq">FAQ</a>
+      <a href="#shipping">Shipping Information</a>
+      <a href="#returns">Returns & Refunds</a>
+      <a href="#support">Customer Support</a>
+    </div>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank">Facebook</a> |
+      <a href="https://twitter.com" target="_blank">Twitter</a> |
+      <a href="https://instagram.com" target="_blank">Instagram</a> |
+      <a href="https://youtube.com" target="_blank">YouTube</a>
+    </div>
+    <p>Email: <a href="mailto:support@mavermoviesale.com">support@marvelrmoviesale.com</a> | Phone: +1-800-555-MAVER</p>
+    <p>Secure Payment Options: Visa | Mastercard | PayPal</p>
+    <p>© 2025 MaevelMovie Sale. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

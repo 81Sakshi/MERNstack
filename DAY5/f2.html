@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        function Addition(){
+            var a=parseInt(document.getElementById('first').value);
+            var b=parseInt(document.getElementById('second').value);
+            var c=a+b;
+           
+            document.getElementById('result').innerText=c;
+
+         }
+         function  mult(){
+            var a=parseInt(document.getElementById('first').value);
+            var b=parseInt(document.getElementById('second').value);
+            var c=a*b;
+           
+            document.getElementById('result').innerText=c;
+
+         }
+         function  div(){
+            var a=parseInt(document.getElementById('first').value);
+            var b=parseInt(document.getElementById('second').value);
+            var c=a/b;
+           
+            document.getElementById('result').innerText=c;
+
+         }
+    </script>
+</head>
+<body>
+    <h1>Addition of Two Numbers</h1>
+    <form>
+        
+       <br> <input type="number" id="first" placeholder="enter the first number"><br>
+       <br> <input type="number" id="second" placeholder="enter the second number"><br>
+        <br><input type="button" onclick="Addition()" value="add"><br>
+        <br><input type="button" onclick="mult()" value="Multplication"><br>
+        <br><input type="button" onclick="div()" value="Division"><br>
+
+        <h1>Result:</h1>
+        <h1 id="result"></h1>
+
+    </form>
+    
+</body>
+</html>

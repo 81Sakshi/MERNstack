@@ -1,0 +1,136 @@
+/* Card Styles */
+/* Add this CSS to your styles.css or inside a <style> tag in your component */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4d9d9;
+    background-image: url("data:image/jpeg;base64,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")
+}
+  .form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .form .div1 {
+    margin-bottom: 20px;
+    background-color: #e2d7d7;
+  }
+  .h2{
+    background-color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #9cdfaa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .div2 h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .form {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+.card {
+    background: linear-gradient(145deg, #f3f4f6, #e4e5e8); /* Soft gradient background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(145deg, #e8f0fe, #d9e6f8); /* Soft blue gradient on hover */
+  }
+  
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc; /* Separation line for the image */
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-body h5 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .card-body p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .card-body button {
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .card-body button:hover {
+    background-color: #0056b3;
+  }
+  
